@@ -1,0 +1,55 @@
+#tarolo1, #tarolo2, #tarolo3, #tarolo4{
+    background-color: yellow;
+    display: flex;
+}
+#tarolo2, #tarolo3, #tarolo4{
+    width: 100%;
+    height: 400pt;
+}
+#zold1, #sarga1, #lila1{
+    width: 100pt;
+    height: 100pt;
+}
+#zold1, #zold2, #zold3, #zold4{
+    background-color: green;
+}
+#sarga1, #sarga2, #sarga3, #sarga4{
+    background-color: yellow;
+}
+/*1. feladadt*/
+#tarolo1{
+    width: 800pt;
+    height: 300pt;
+    justify-content: center;
+    align-items: center;
+}
+#zold1{
+    visibility: hidden;
+}
+#sarga1{
+    visibility: hidden;
+}
+#tarolo1 > #lila1{
+    background-color: purple;
+    
+}
+/*2. feladat*/
+li{
+    list-style-type: none;
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    margin-right: 5px;
+}
+#tarolo2, #tarolo3{
+    align-items: center;
+}
+/*3. feladat*/
+#tarolo3{
+    justify-content: space-between;
+}
+/*4. feladat*/
+#tarolo4{
+    justify-content: flex-end;
+    align-items: flex-end;
+}

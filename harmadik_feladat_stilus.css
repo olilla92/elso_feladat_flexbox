@@ -1,0 +1,119 @@
+/*1. feladat*/
+#tarolo1, #tarolo2, #tarolo3{
+    display: flex;
+    width: 100%;
+    height: 500pt;
+}
+#lila1, #lila2{
+    background-color: purple;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+}
+#sarga1{
+    background-color: yellow;
+    flex: 2;
+}
+#zold1{
+    background-color: green;
+    flex: 1;
+}
+#lila1{
+    display: flex;
+    align-items: center;
+}
+#kek1, #kek2{
+    background-color: aqua;
+    width: 70px;
+    height: 40px;
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
+/*2. feladat*/
+#lila2{
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+}
+#kekek{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+#kozep{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 450pt;
+    padding-left: 150pt;
+    padding-top: 70px;
+}
+#zold2{
+    background-color: green;
+    flex: 1;
+    order: 1;
+    margin-right: 10px;
+}
+#sarga2{
+    background-color: yellow;
+    flex: 2;
+    order: 2;
+}
+#szurke{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+/*3. feladat*/
+#tarolo3{
+    background-color: peachpuff;
+    padding-bottom: 100pt;
+}
+#piros{
+    background-color: red;
+    width: 260pt;
+    height: 400pt;
+    display: flex;
+    margin-left: 100pt;
+    order: 2;
+}
+#cian{
+    background-color: aqua;
+    order: 2;
+}
+#narancs{
+    background-color: orange;
+    order: 1;
+}
+#sotetlila{
+    background-color: blueviolet;
+    margin-left: 530px;
+    order: 3;
+}
+#sotetkek{
+    background-color: blue;
+    margin-top: 400pt;
+}
+#cian, #sotetkek{
+    width: 458pt;
+    height: 75pt;
+    position: absolute;
+}
+#narancs, #sotetlila{
+    width: 60pt;
+    height: 400pt;
+    position: absolute;
+}
+#fekete{
+    position: absolute;
+    width: 30pt;
+    height: 30pt;
+    background-color: black; 
+    margin-top: 500pt;
+    margin-left: 900pt
+}
